@@ -2,9 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     json (1.8.3)
+    power_assert (0.2.6)
     rake (11.1.2)
     rdoc (4.2.2)
       json (~> 1.4)
+    test-unit (3.1.5)
+      power_assert
 
 PLATFORMS
   ruby
@@ -12,6 +15,7 @@ PLATFORMS
 DEPENDENCIES
   rake
   rdoc
+  test-unit
 
 BUNDLED WITH
    1.11.2
