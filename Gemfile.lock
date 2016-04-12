@@ -1,8 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    rake (10.1.0)
-    rdoc (4.1.0)
+    json (1.8.3)
+    rake (11.1.2)
+    rdoc (4.2.2)
+      json (~> 1.4)
 
 PLATFORMS
   ruby
@@ -10,3 +12,6 @@ PLATFORMS
 DEPENDENCIES
   rake
   rdoc
+
+BUNDLED WITH
+   1.11.2
