@@ -4,9 +4,10 @@ cache: bundler
 script: 'bundle exec rake test'
 
 rvm:
-  - 1.8.7
   - 1.9.3
   - 2.1
+  - 2.2
+  - 2.3.0
   - ruby-head
   - rbx-2.2
   - jruby-19mode
@@ -14,7 +15,6 @@ rvm:
 
 matrix:
   allow_failures:
-    - rvm: 1.8.7
     - rvm: ruby-head
     - rvm: rbx-2.2
     - rvm: jruby-19mode
